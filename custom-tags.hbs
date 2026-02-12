@@ -1,0 +1,26 @@
+{{!< default}}
+
+{{#post}}
+
+<header class="post-header">
+    <div class="inner">
+        <div>
+            <h1 class="post-title">{{title}}</h1>
+        </div>
+    </div>
+</header>
+
+<main class="content" role="main">
+    <div class="inner">
+    {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+    {{#foreach tags}}
+        <article class="box post-box">
+            <h2 class="post-title"><a href="{{url}}">{{name}} ({{count.posts}})</a></h2>
+            </a>
+        </article>
+    {{/foreach}}
+    {{/get}}
+    </div>
+</main>
+
+{{/post}}
