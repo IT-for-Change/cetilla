@@ -1981,7 +1981,7 @@ textarea {
 }
 
 .post-excerpt {
-	margin: 1em 0 0;
+	//margin: 1em 0 0;
 	font-size: 2em;
 	line-height: 2em;
 }
@@ -2085,7 +2085,7 @@ textarea {
 	display: inline-block;
 	margin-right: 0.5em;
 	margin-bottom: 0.5em;
-	padding: 0 1.5rem;
+	padding: 0 0.75rem;
 	background: var(--color-background-contrast);
 	color: var(--color-content-main);
 	border: 0;
@@ -2094,7 +2094,7 @@ textarea {
 	line-height: 3rem;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 2em;
+	border-radius: 1em;
 	transition: all ease 0.2s;
 	box-sizing: border-box;
 	white-space: nowrap;
